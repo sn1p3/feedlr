@@ -13,6 +13,19 @@ module Feedlr
                             path: '/tags')
       end
 
+      # Enterprise Tags API
+      #
+      # @see https://developer.feedly.com/v3/enterprisetags/
+      #
+      # Get the list of enterprise tags (Enterprise only)
+      #
+      # @see https://developer.feedly.com/v3/enterprisetags/#get-the-list-of-enterprise-tags-enterprise-only
+      # @return [Feedlr::Collection]
+      def enterprise_tags
+        request_with_object(method: :get,
+                            path: '/enterprise/tags')
+      end
+
       # Tag an existing entry
       #
       # @see tag_entries
