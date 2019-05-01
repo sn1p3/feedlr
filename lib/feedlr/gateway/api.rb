@@ -16,6 +16,7 @@ require_relative 'facebook'
 require_relative 'twitter'
 require_relative 'microsoft'
 require_relative 'evernote'
+require_relative 'users'
 
 module Feedlr
   module Gateway
@@ -39,6 +40,7 @@ module Feedlr
       include Twitter
       include Microsoft
       include Evernote
+      include Users
 
       # Returns the public interface of the client
       # @return [Array]
