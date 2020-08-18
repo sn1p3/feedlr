@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'hashie', '~> 3.0'
   gem.add_dependency 'multi_xml', '~> 0.5'
   gem.add_dependency 'multi_json', '~> 1.0'
-  gem.add_dependency 'faraday', '~> 0.9'
-  gem.add_dependency 'faraday_middleware', '~> 0.9'
+  gem.add_dependency 'faraday', '~> 1.0'
+  gem.add_dependency 'faraday_middleware', '~> 1.0'
 
   gem.name          = 'feedlr'
   gem.version       = Feedlr::Version

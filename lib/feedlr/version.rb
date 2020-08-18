@@ -2,7 +2,7 @@ module Feedlr
   # Gem's version
   class Version
     MAJOR = 0
-    MINOR = 1
+    MINOR = 2
     PATCH = 1
 
     class << self
